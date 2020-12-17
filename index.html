@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Hello!</title>
+    <title>Banksy Arts</title>
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
@@ -13,55 +13,36 @@
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
-  <body>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <header>
-      <div class="container">
-        <img
-          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Foutput-onlinepngtools%20(23).png?v=1606297288101"
-          alt="logo"
-          style="width:200px;height:80px;float:left;"
-        />
-        <nav>
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="index.html"
+            ><h1><span>B</span>anksy</h1></a
+          >
+        </div>
+        <div class="nav-list">
+          <div class="hamburger"><div class="bar"></div></div>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="Csstest2.html">Artworks</a></li>
-            <li><a href="askme.html">Contact</a></li>
-            <li><a href="jquerytest.html">Jquery</a></li>
+            <li><a href="index.html" data-after="Home">Home</a></li>
+            <li><a href="about.html" data-after="Service">About</a></li>
+            <li><a href="Csstest2.html" data-after="Projects">Artworks</a></li>
+            <li><a href="askme.html" data-after="Contact">Contact</a></li>
           </ul>
-        </nav>
+        </div>
       </div>
-    </header>
-    <img
-      src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Fdownload.jfif?v=1606312191560"
-      alt="pics"
-      style="float:left; margin-right:10px; margin-bottom:5px;
-      border: solid black 1px; padding:2px; width:1000px; height:600px;"
-    />
-    <p>
-      welcome Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-      facilisis mattis venenatis. Praesent et elit eleifend turpis sagittis
-      efficitur. In vel tristique orci. Praesent eu erat ac ipsum tincidunt
-      cursus. Quisque euismod augue sit amet efficitur efficitur. Pellentesque
-      commodo, lacus non faucibus fermentum, dui dolor sagittis ligula, sed
-      aliquet nibh quam ac dui. Morbi gravida est ac lectus tempus porttitor.
-      Fusce ornare rutrum risus mattis suscipit. Fusce eu sapien gravida,
-      posuere sapien et, cursus magna. Ut pulvinar nunc non malesuada
-      vestibulum. Proin ornare elit tempus tellus feugiat mollis.
-    </p>
-
-    <button class="button"><a href="Csstest2.html">Artworks</a></button>
-
-    <hr style="width:100%;text-align:left;margin-left:0" />
-
-    <!-- include the Glitch button to show what the webpage is about and
-          to make it easier for folks to view source and remix -->
-    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-    <script src="https://button.glitch.me/button.js" defer></script>
+    </div>
+  </section>
+  <body>
+    <section id="head">
+      <div class="head container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>Welcome to <span></span></h1>
+          <h1>Banksy <span></span></h1>
+          <a href="Csstest2.html" type="button" class="cta">Artworks</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

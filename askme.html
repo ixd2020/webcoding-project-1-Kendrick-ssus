@@ -13,34 +13,68 @@
 
     <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
   </head>
   <body>
-    <h1>Ask me</h1>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
 
-    <p>
-      <a href="index.html">Go to index</a>
-    </p>
-    <p>
-      Hi you can reach me with the following contacts
-    </p>
-    <ul>
-      <li>
-        9588 8390
-      </li>
-      <li>
-        83473729
-      </li>
-      <li>
-        84402921
-      </li>
-    </ul>
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+  <div class="bg-text"></div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Csstest2.html">Artworks</a>
+    <a href="askme.html">Contacts</a>
+  </div>
+
+  <div id="main">
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()"
+      >&#9776;Menu</span
+    >
+  </div>
+  <body1>
+    <div class="contact-info">
+      <div class="card">
+        <a href="https://pestcontroloffice.com/" <div class="card">
+          <i class="far fa-envelope fa-4x"></i>
+          <p>https://pestcontroloffice.com/</p>
+        </a>
+      </div>
+
+      <div class="card">
+        <a href="https://www.instagram.com/banksy/" <div class="card">
+          <i class="fab fa-instagram fa-4x"></i>
+          <p>banksy</p>
+        </a>
+      </div>
+      <a href="https://twitter.com/banksy?lang=en" <div class="card">
+        <i class="fab fa-twitter fa-4x"></i>
+        <p>@banksy</p>
+      </a>
+    </div>
 
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script src="https://button.glitch.me/button.js" defer></script>
-  </body>
+  </body1>
 </html>

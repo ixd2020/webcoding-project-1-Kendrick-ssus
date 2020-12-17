@@ -12,9 +12,120 @@
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    
-    <button class="button"><a href="index.html">home</a></button>
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
 
-  
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
+  </body>
+  <div class="bg-text"></div>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+      >&times;</a
+    >
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="Csstest2.html">Artworks</a>
+    <a href="askme.html">Contacts</a>
+  </div>
+
+  <div id="main">
+    <span style="font-size:20px;cursor:pointer" onclick="openNav()"
+      >&#9776;Menu</span
+    >
+  </div>
+  <body>
+    <div class="header">
+      <h1>Famous Artworks</h1>
+      <p>By Banksy</p>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+      <div class="column">
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Ff2f59f153e669235fa101a0f74f13f36.jpg?v=1605367543256"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FScreenshot%20(166).png?v=1607152429789"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Fdownload.jpg?v=1606300675975"
+          style="width:100%"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FScreenshot%20(165).png?v=1607152428398"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FWell_Hung_Lover.jpg?v=1608174383272"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Fbanksy-one-nation-under-cctv-1.jpg?v=1608174379275"
+          style="width:100%"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Fdownload.jfif?v=1608174376708"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2F_108824273_chimps2.jpg?v=1608102554790"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FNever_Too_Young_to_Dream_Big_-_Banksy_750b5d85-f007-4f88-ab24-577ed472ea6a.jpg?v=1606369469020"
+          style="width:100%"
+        />
+      </div>
+      <div class="column">
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2F714sWnypBDL._AC_SL1500_.jpg?v=1608103078555"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FScreenshot%20(168).png?v=1607152431753"
+          style="width:100%"
+        />
+        <img
+          src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2FScreenshot%20(167).png?v=1607152433807"
+          style="width:100%"
+        />
+      </div>
+    </div>
+    <div class="footer">
+      <p class="footer-text-left">
+        <a href="index.html" class="menu">Home</a>
+        <a href="about.html" class="menu">About</a>
+        <a href="askme.html" class="menu">Contact</a>
+      </p>
+
+      <div class="footer-content-right">
+        <a href="https://www.instagram.com/banksy/"
+          ><img
+            src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Finstagram-logo-A807AD378B-seeklogo.com.png?v=1608182781519"
+            class="icon-style"
+        /></a>
+        <a href="https://twitter.com/banksy?lang=en"
+          ><img
+            src="https://cdn.glitch.com/9ef9fb38-3114-494e-b2a2-07dfb69bfacc%2Foutput-onlinepngtools%20(34).png?v=1608184586244"
+            class="icon-style"
+        /></a>
+      </div>
+    </div>
   </body>
 </html>
